@@ -1,0 +1,23 @@
+{
+  "name": "seneca-cms",
+  "version": "0.0.1",
+  "description": "Seneca CMS module",
+  "main": "cms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gangleri/seneca-cms.git"
+  },
+  "keywords":[
+    "seneca",
+    "cms",
+    "plugin"
+  ],
+  "author": "Alan Bradley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gangleri/seneca-cms/issues"
+  }
+}
