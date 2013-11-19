@@ -7,7 +7,7 @@ module.exports = function(options) {
   var seneca = this
   var plugin = 'cms'
 
-  seneca.add({role:plugin, cmd:'load'}, cmd_load)
+  //seneca.add({role:plugin, cmd:'load'}, cmd_load)
   seneca.add({role:plugin, cmd:'list'}, cmd_list)
   seneca.add({role:plugin, cmd:'remove'}, cmd_remove)
   seneca.add({role:plugin, cmd:'save'}, save)
@@ -37,7 +37,7 @@ module.exports = function(options) {
 
   function save(args, done) {
     var seneca = this
-    var elem = seneca.make('cms/element')
+    var elm = seneca.make('cms/element')
 
     if (args.id) elm.id = args.id
     else elm.id = nid() 
